@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/feedback_nav"
+    app:startDestination="@id/feedbackFragment">
+
+    <fragment
+        android:id="@+id/feedbackFragment"
+        android:name="com.example.onlineshoppingstore.feedback.ui.FeedbackFragment"
+        android:label="fragment_feedback"
+        tools:layout="@layout/fragment_feedback" >
+        <action
+            android:id="@+id/action_feedbackFragment_to_servicesRatingFragment"
+            app:destination="@id/servicesRatingFragment" />
+        <action
+            android:id="@+id/action_feedbackFragment_to_customerFeedbacksFragment"
+            app:destination="@id/customerFeedbacksFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/servicesRatingFragment"
+        android:name="com.example.onlineshoppingstore.feedback.ui.ServicesRatingFragment"
+        android:label="fragment_services_rating"
+        tools:layout="@layout/fragment_services_rating" />
+    <dialog
+        android:id="@+id/customerFeedbacksFragment"
+        android:name="com.example.onlineshoppingstore.feedback.ui.CustomerFeedbacksFragment"
+        android:label="fragment_customer_feedbacks"
+        tools:layout="@layout/fragment_customer_feedbacks" />
+</navigation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--    logout-->
+    <item
+        android:id="@+id/action_view_feedbacks"
+        android:icon="@drawable/ic_feedback"
+        android:title="@string/view_feedback"
+        android:iconTint="@color/primaryColor"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout"
+        android:iconTint="@color/primaryColor"
+        app:showAsAction="ifRoom" />
+</menu>

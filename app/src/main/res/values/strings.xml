@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Online Shopping Store</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cust_feedback">Customer Feedback</string>
+    <string name="review_product">Review Product</string>
+    <string name="view_feedback">View Feedback</string>
+    <string name="feedback">Feedback</string>
+    <string name="submit_feedback">submit</string>
+    <string name="feedback_complete">feedback complete</string>
+    <string name="rating_request">Would you like to rate our catalogue and services?</string>
+    <string name="yes_please">yes please</string>
+    <string name="default_rating_message">Rate Us…</string>
+
+    <string name="feedback_count">Feedbacks (%1$d)</string>
+
+    <!--    services ratings-->
+    <string name="services_rating">Services Rating</string>
+    <string name="pricing_rt">Pricing</string>
+    <string name="quality_rt">Quality</string>
+    <string name="delivery_rt">Delivery</string>
+    <string name="product_selection_rt">Product Selection</string>
+    <string name="customer_service_rt">Customer Service</string>
+
+    <!--    overall feedback messages-->
+    <string name="fb_r1">We\'re sorry to hear that!</string>
+    <string name="fb_r2">We\'ll try to improve!</string>
+    <string name="fb_r3">We value your feedback!</string>
+    <string name="fb_r4">We\'re glad you\'re happy!</string>
+    <string name="fb_r5">You\'re awesome!!!</string>
+    <string name="fb_submitted">feedback submitted</string>
+    <string name="fb_submit_error">feedback submit error</string>
+
+    <!--    pricing feedback message-->
+    <string name="fb_p1">Not worth the price</string>
+    <string name="fb_p2">Things are a bit expensive</string>
+    <string name="fb_p3">Things are reasonably priced</string>
+    <string name="fb_p4">Worth every penny</string>
+    <string name="fb_p5">We getting things for free</string>
+
+    <!--    quality feedback message-->
+    <string name="fb_q1">Poor quality</string>
+    <string name="fb_q2">Average quality</string>
+    <string name="fb_q3">Good quality</string>
+    <string name="fb_q4">Excellent quality</string>
+    <string name="fb_q5">God tier quality</string>
+
+    <!--    delivery feedback message-->
+    <string name="fb_d1">Slow delivery</string>
+    <string name="fb_d2">Average delivery</string>
+    <string name="fb_d3">Good delivery</string>
+    <string name="fb_d4">Excellent delivery</string>
+    <string name="fb_d5">Lightning fast delivery</string>
+
+    <!--    product selection feedback message-->
+    <string name="fb_ps1">Too few products</string>
+    <string name="fb_ps2">Average product selection</string>
+    <string name="fb_ps3">Good product selection</string>
+    <string name="fb_ps4">Excellent product selection</string>
+    <string name="fb_ps5">Infinite product selection</string>
+
+    <!--    customer service feedback message-->
+    <string name="fb_cs1">Poor customer service</string>
+    <string name="fb_cs2">Average customer service</string>
+    <string name="fb_cs3">Good customer service</string>
+    <string name="fb_cs4">Excellent customer service</string>
+    <string name="fb_cs5">God tier customer service</string>
+
+
+    <string name="fb_thanks">Thank you for your feedback!</string>
+    <string name="submit_rating">Submit Rating</string>
+    <string name="rating_submitted">Update your ratings</string>
+    <string name="update">update</string>
+    <string name="fb_update">You can update your feedback…</string>
+    <string name="update_feedback">update feedback</string>
+    <string name="rt_update">update ratings</string>
+    <string name="rt_update_request">Would you like to update your ratings as well?</string>
+    <string name="default_title">Feed Title</string>
+    <string name="default_date">17/10/2000</string>
+    <string name="default_body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet dictum felis sit amet malesuada. Cras vulputate mattis erat non convallis. Suspendisse ac porttitor metus</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="login">login</string>
+    <string name="login_btn">login btn</string>
+    <string name="signup_btn">signup btn</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="logo">logo</string>
+    <string name="ukzn_online_store">ukzn online store</string>
+    <string name="thank_you">Thank You for shopping with us!</string>
+    <string name="give_feedback">Give Feedback</string>
+    <string name="ask_fb">We would love to have your feedback, about your experience with us.</string>
+    <string name="shop_again">shop again</string>
+    <string name="logout">logout</string>
+    <string name="feed_author">feed author</string>
+</resources>

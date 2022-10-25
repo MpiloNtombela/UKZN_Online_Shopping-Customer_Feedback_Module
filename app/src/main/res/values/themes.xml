@@ -1,0 +1,58 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.OnlineShoppingStore" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="RoundedButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">50dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">32dp</item>
+    </style>
+
+    <style name="RoundedButtonOutlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="strokeColor">@color/primaryColor</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <style name="RoundedBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/RoundedBottomDialog</item>
+    </style>
+
+    <style name="RoundedBottomDialog" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rnd</item>
+    </style>
+
+    <style name="Theme.Feedback" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <item name="bottomSheetDialogTheme">@style/RoundedBottomSheetDialogTheme</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+</resources>
