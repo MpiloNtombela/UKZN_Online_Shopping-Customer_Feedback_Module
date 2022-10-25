@@ -1,6 +1,6 @@
 # Title
 
-### Ukzn Shopping Store - Customer feedback (honours project)
+### Ukzn Shopping Store - Customer feedback (honours mini project)
 
 # Description
 
