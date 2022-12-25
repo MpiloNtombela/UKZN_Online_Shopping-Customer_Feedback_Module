@@ -26,8 +26,6 @@ This module allows customers of the ukzn online shopping store to leave feedback
 
 > Name: [Mpilo Ntombela (repo owner)](https://github.com/MpiloNtombela)
 
-
-
 > Email: mpilo@duck.com
 
 > LinkedIn: [mpilo-ntombela](https://linkedin.com/in/mpilo-ntombela)
